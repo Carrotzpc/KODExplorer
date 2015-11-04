@@ -7,4 +7,4 @@ RUN mkdir /data
 RUN chmod -R 777 /data
 RUN chmod -R 777 /usr/share/nginx/html
 
-volume /usr/share/nginx/html
+volume /data
