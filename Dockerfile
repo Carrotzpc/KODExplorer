@@ -7,4 +7,5 @@ RUN mkdir /data
 RUN chmod -R 777 /data
 RUN chmod -R 777 /usr/share/nginx/html
 
+RUN mkdir /usr/share/nginx/html/data/User/admin/home
 volume /usr/share/nginx/html/data/User/admin/home
